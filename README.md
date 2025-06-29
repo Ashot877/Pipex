@@ -66,23 +66,6 @@ $> ./pipex infile "ls -l" "wc -l" outfile
 
 ---
 
-## 🌟 Bonus Features *(optional)*
-
-* **Multiple pipes** support:
-
-  ```bash
-  ./pipex infile cmd1 cmd2 cmd3 ... cmdN outfile
-  # Behaves like: < infile cmd1 | cmd2 | ... | cmdN > outfile
-  ```
-* **Here-document** support:
-
-  ```bash
-  ./pipex here_doc LIMITER cmd1 cmd2 outfile
-  # Behaves like: cmd1 << LIMITER | cmd2 >> outfile
-  ```
-
----
-
 ## 🧑‍💻 Author
 
 * **Ashot Mkrtchyan**
